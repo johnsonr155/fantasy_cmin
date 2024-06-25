@@ -1,0 +1,45 @@
+venv
+.DS_Store
+.idea
+.gcloudignore
+.git
+.venv
+__pycache__/
+/setup.cfg
+venv
+.ipynb_checkpoints
+*.ipynb
+.env
+Brewfile.lock.json
+
+# Terraform
+**/.terraform/*
+# Terraform lock files
+*/.terraform.lock.hcl
+.terraform.lock.hcl
+*.terraform.lock.hcl 
+
+# Data
+*.csv
+*.xlsx
+*.xls
+*.pkl
+*.parquet
+*.zip
+*.ods
+data/*
+
+# outputs
+*.pdf
+*.jpg
+*.png
+*.pptx
+*.ppt
+*.docx
+
+# Rendered presentations
+*.html
+*_files/
+static/
+*.pdf 
+.aider*
